@@ -13,19 +13,13 @@
 		F3051CE726BDA41700473FA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3051CE526BDA41700473FA6 /* Main.storyboard */; };
 		F3051CE926BDA41700473FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3051CE826BDA41700473FA6 /* Assets.xcassets */; };
 		F3051CEC26BDA41700473FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3051CEA26BDA41700473FA6 /* LaunchScreen.storyboard */; };
-		F3051CF726BDA41700473FA6 /* HTTPNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3051CF626BDA41700473FA6 /* HTTPNetworkTests.swift */; };
-		F3051D0226BDA41800473FA6 /* HTTPNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3051D0126BDA41800473FA6 /* HTTPNetworkUITests.swift */; };
+		F3051D1026BEE85E00473FA6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3051D0F26BEE85E00473FA6 /* UIColorExtension.swift */; };
+		F3051D1426BEFF6700473FA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3051D1326BEFF6700473FA6 /* Images.xcassets */; };
+		F3C33CE826C06DAB0056B695 /* HTTPNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C33CE726C06DAB0056B695 /* HTTPNetworkUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F3051CF326BDA41700473FA6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F3051CD426BDA41600473FA6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3051CDB26BDA41600473FA6;
-			remoteInfo = HTTPNetwork;
-		};
-		F3051CFE26BDA41800473FA6 /* PBXContainerItemProxy */ = {
+		F3C33CEA26C06DAB0056B695 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F3051CD426BDA41600473FA6 /* Project object */;
 			proxyType = 1;
@@ -43,12 +37,11 @@
 		F3051CE826BDA41700473FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3051CEB26BDA41700473FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3051CED26BDA41700473FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3051CF226BDA41700473FA6 /* HTTPNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3051CF626BDA41700473FA6 /* HTTPNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPNetworkTests.swift; sourceTree = "<group>"; };
-		F3051CF826BDA41800473FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3051CFD26BDA41800473FA6 /* HTTPNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3051D0126BDA41800473FA6 /* HTTPNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPNetworkUITests.swift; sourceTree = "<group>"; };
-		F3051D0326BDA41800473FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3051D0F26BEE85E00473FA6 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		F3051D1326BEFF6700473FA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3C33CE526C06DAB0056B695 /* HTTPNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C33CE726C06DAB0056B695 /* HTTPNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPNetworkUITests.swift; sourceTree = "<group>"; };
+		F3C33CE926C06DAB0056B695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +52,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3051CEF26BDA41700473FA6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3051CFA26BDA41800473FA6 /* Frameworks */ = {
+		F3C33CE226C06DAB0056B695 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				F3051CDE26BDA41700473FA6 /* HTTPNetwork */,
-				F3051CF526BDA41700473FA6 /* HTTPNetworkTests */,
-				F3051D0026BDA41800473FA6 /* HTTPNetworkUITests */,
+				F3C33CE626C06DAB0056B695 /* HTTPNetworkUITests */,
 				F3051CDD26BDA41700473FA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				F3051CDC26BDA41700473FA6 /* HTTPNetwork.app */,
-				F3051CF226BDA41700473FA6 /* HTTPNetworkTests.xctest */,
-				F3051CFD26BDA41800473FA6 /* HTTPNetworkUITests.xctest */,
+				F3C33CE526C06DAB0056B695 /* HTTPNetworkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,24 +90,17 @@
 				F3051CE826BDA41700473FA6 /* Assets.xcassets */,
 				F3051CEA26BDA41700473FA6 /* LaunchScreen.storyboard */,
 				F3051CED26BDA41700473FA6 /* Info.plist */,
+				F3051D0F26BEE85E00473FA6 /* UIColorExtension.swift */,
+				F3051D1326BEFF6700473FA6 /* Images.xcassets */,
 			);
 			path = HTTPNetwork;
 			sourceTree = "<group>";
 		};
-		F3051CF526BDA41700473FA6 /* HTTPNetworkTests */ = {
+		F3C33CE626C06DAB0056B695 /* HTTPNetworkUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F3051CF626BDA41700473FA6 /* HTTPNetworkTests.swift */,
-				F3051CF826BDA41800473FA6 /* Info.plist */,
-			);
-			path = HTTPNetworkTests;
-			sourceTree = "<group>";
-		};
-		F3051D0026BDA41800473FA6 /* HTTPNetworkUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F3051D0126BDA41800473FA6 /* HTTPNetworkUITests.swift */,
-				F3051D0326BDA41800473FA6 /* Info.plist */,
+				F3C33CE726C06DAB0056B695 /* HTTPNetworkUITests.swift */,
+				F3C33CE926C06DAB0056B695 /* Info.plist */,
 			);
 			path = HTTPNetworkUITests;
 			sourceTree = "<group>";
@@ -148,40 +125,22 @@
 			productReference = F3051CDC26BDA41700473FA6 /* HTTPNetwork.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3051CF126BDA41700473FA6 /* HTTPNetworkTests */ = {
+		F3C33CE426C06DAB0056B695 /* HTTPNetworkUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3051D0926BDA41800473FA6 /* Build configuration list for PBXNativeTarget "HTTPNetworkTests" */;
+			buildConfigurationList = F3C33CEC26C06DAB0056B695 /* Build configuration list for PBXNativeTarget "HTTPNetworkUITests" */;
 			buildPhases = (
-				F3051CEE26BDA41700473FA6 /* Sources */,
-				F3051CEF26BDA41700473FA6 /* Frameworks */,
-				F3051CF026BDA41700473FA6 /* Resources */,
+				F3C33CE126C06DAB0056B695 /* Sources */,
+				F3C33CE226C06DAB0056B695 /* Frameworks */,
+				F3C33CE326C06DAB0056B695 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3051CF426BDA41700473FA6 /* PBXTargetDependency */,
-			);
-			name = HTTPNetworkTests;
-			productName = HTTPNetworkTests;
-			productReference = F3051CF226BDA41700473FA6 /* HTTPNetworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F3051CFC26BDA41800473FA6 /* HTTPNetworkUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F3051D0C26BDA41800473FA6 /* Build configuration list for PBXNativeTarget "HTTPNetworkUITests" */;
-			buildPhases = (
-				F3051CF926BDA41800473FA6 /* Sources */,
-				F3051CFA26BDA41800473FA6 /* Frameworks */,
-				F3051CFB26BDA41800473FA6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F3051CFF26BDA41800473FA6 /* PBXTargetDependency */,
+				F3C33CEB26C06DAB0056B695 /* PBXTargetDependency */,
 			);
 			name = HTTPNetworkUITests;
 			productName = HTTPNetworkUITests;
-			productReference = F3051CFD26BDA41800473FA6 /* HTTPNetworkUITests.xctest */;
+			productReference = F3C33CE526C06DAB0056B695 /* HTTPNetworkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,11 +155,7 @@
 					F3051CDB26BDA41600473FA6 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					F3051CF126BDA41700473FA6 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = F3051CDB26BDA41600473FA6;
-					};
-					F3051CFC26BDA41800473FA6 = {
+					F3C33CE426C06DAB0056B695 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = F3051CDB26BDA41600473FA6;
 					};
@@ -220,8 +175,7 @@
 			projectRoot = "";
 			targets = (
 				F3051CDB26BDA41600473FA6 /* HTTPNetwork */,
-				F3051CF126BDA41700473FA6 /* HTTPNetworkTests */,
-				F3051CFC26BDA41800473FA6 /* HTTPNetworkUITests */,
+				F3C33CE426C06DAB0056B695 /* HTTPNetworkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,19 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3051CEC26BDA41700473FA6 /* LaunchScreen.storyboard in Resources */,
+				F3051D1426BEFF6700473FA6 /* Images.xcassets in Resources */,
 				F3051CE926BDA41700473FA6 /* Assets.xcassets in Resources */,
 				F3051CE726BDA41700473FA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3051CF026BDA41700473FA6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3051CFB26BDA41800473FA6 /* Resources */ = {
+		F3C33CE326C06DAB0056B695 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,37 +209,25 @@
 				F3051CE426BDA41700473FA6 /* ViewController.swift in Sources */,
 				F3051CE026BDA41700473FA6 /* AppDelegate.swift in Sources */,
 				F3051CE226BDA41700473FA6 /* SceneDelegate.swift in Sources */,
+				F3051D1026BEE85E00473FA6 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3051CEE26BDA41700473FA6 /* Sources */ = {
+		F3C33CE126C06DAB0056B695 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3051CF726BDA41700473FA6 /* HTTPNetworkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3051CF926BDA41800473FA6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3051D0226BDA41800473FA6 /* HTTPNetworkUITests.swift in Sources */,
+				F3C33CE826C06DAB0056B695 /* HTTPNetworkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F3051CF426BDA41700473FA6 /* PBXTargetDependency */ = {
+		F3C33CEB26C06DAB0056B695 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F3051CDB26BDA41600473FA6 /* HTTPNetwork */;
-			targetProxy = F3051CF326BDA41700473FA6 /* PBXContainerItemProxy */;
-		};
-		F3051CFF26BDA41800473FA6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F3051CDB26BDA41600473FA6 /* HTTPNetwork */;
-			targetProxy = F3051CFE26BDA41800473FA6 /* PBXContainerItemProxy */;
+			targetProxy = F3C33CEA26C06DAB0056B695 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -469,54 +405,9 @@
 			};
 			name = Release;
 		};
-		F3051D0A26BDA41800473FA6 /* Debug */ = {
+		F3C33CED26C06DAB0056B695 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YV49H67XCX;
-				INFOPLIST_FILE = HTTPNetworkTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HTTPNetworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTTPNetwork.app/HTTPNetwork";
-			};
-			name = Debug;
-		};
-		F3051D0B26BDA41800473FA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YV49H67XCX;
-				INFOPLIST_FILE = HTTPNetworkTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HTTPNetworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTTPNetwork.app/HTTPNetwork";
-			};
-			name = Release;
-		};
-		F3051D0D26BDA41800473FA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YV49H67XCX;
 				INFOPLIST_FILE = HTTPNetworkUITests/Info.plist;
@@ -533,10 +424,9 @@
 			};
 			name = Debug;
 		};
-		F3051D0E26BDA41800473FA6 /* Release */ = {
+		F3C33CEE26C06DAB0056B695 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YV49H67XCX;
 				INFOPLIST_FILE = HTTPNetworkUITests/Info.plist;
@@ -574,20 +464,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3051D0926BDA41800473FA6 /* Build configuration list for PBXNativeTarget "HTTPNetworkTests" */ = {
+		F3C33CEC26C06DAB0056B695 /* Build configuration list for PBXNativeTarget "HTTPNetworkUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3051D0A26BDA41800473FA6 /* Debug */,
-				F3051D0B26BDA41800473FA6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3051D0C26BDA41800473FA6 /* Build configuration list for PBXNativeTarget "HTTPNetworkUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3051D0D26BDA41800473FA6 /* Debug */,
-				F3051D0E26BDA41800473FA6 /* Release */,
+				F3C33CED26C06DAB0056B695 /* Debug */,
+				F3C33CEE26C06DAB0056B695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
